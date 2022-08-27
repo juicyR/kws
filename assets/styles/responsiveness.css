@@ -1,0 +1,153 @@
+@media (min-width: 400px) {
+    .nav-links a {
+        font-size: 20px;
+    }
+    .contact-splash {
+        align-items: center;
+    }
+}
+
+@media (min-width: 500px) {
+    .info h1 {
+        font-size: 6vw;
+    }
+
+    .info {
+        position: absolute;
+        top: 210px;
+    }
+
+    .info p,
+    .arrow p {
+        font-size: 4vw;
+    }
+
+    .splash {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 600px) {
+    .grass {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .image {
+        width: 50%;
+        max-width: 648px;
+    }
+
+    .image img {
+        max-height: 400px;
+    }
+
+    .text {
+        width: 50%;
+        max-width: 648px;
+    }
+
+    .text h1 {
+        font-size: 6vw;
+    }
+
+    .text p {
+        font-size: 3vw;
+    }
+
+    .vzg h1 {
+        font-size: 5vw;
+    }
+
+    .content::-webkit-scrollbar {
+        display: block;
+    }
+}
+
+@media (min-width: 600px) and (min-height: 800px) {
+    .grass {
+        flex-direction: column;
+        text-align: center;
+        padding-right: 59px;
+        padding-left: 59px;
+        gap: 25px;
+    }
+
+    .image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .image > img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text h1 {
+        font-size: 5vh;
+    }
+
+    .text p {
+        font-size: 3vh;
+    }
+}
+
+@media (min-width: 850px) {
+    .info p {
+        font-size: 3vw;
+    }
+
+    .arrow p {
+        font-size: 2vw;
+    }
+
+    .info h1 {
+        font-size: 6vw;
+    }
+}
+
+@media (min-width: 930px) {
+    .text h1 {
+        font-size: 45px;
+    }
+
+    .text p {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 1388px) {
+    .text h1 {
+        font-size: 55px;
+    }
+
+    .text p {
+        font-size: 41px;
+    }
+}
+
+@media (min-height: 700px) {
+    .info {
+        position: relative;
+        top: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo-img h1 {
+        display: none;
+    }
+
+    .info {
+        position: relative;
+        top: -45px;
+    }
+    
+    .vzg h1 {
+        font-size: 3.7vh;
+    }
+}
